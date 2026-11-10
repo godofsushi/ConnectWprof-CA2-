@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ConnectWprof</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ConnectWprof</h1>
+        <p>Professor Appointment Scheduler</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="professor.html">Professors</a>
+        <a href="#">My Appointments</a>
+    </nav>
+    <main>
+    <section class="welcome">
+        <h2>Welcome to ConnectWprof</h2>
+        <p>
+            Schedule appointments with your professors
+            to get the academic guidance you need.
+        </p>
+    </section>
+    <section id="professors">
+    <h2>Our Professors</h2>
+    <p>Choose a professor to schedule an appointment.</p>
+
+    <div class="professor-container">
+
+        <div class="professor-card">
+            <h3>Professor A</h3>
+            <p>Computer Science</p>
+            <p>available: Monday, Wednesday</p>
+            
+        </div>
+
+        <div class="professor-card">
+            <h3>Professor B</h3>
+            <p>Mathematics</p>
+            <p>available: Tuesday, Thursday</p>
+            
+        </div>
+        <div class="professor-card">
+            <h3>Professor C</h3>
+            <p>Python</p>
+            <p>available: Monday, Friday</p>
+
+    </div>
+    <div class="professor-card">
+        <h3>Professor D</h3>
+        <p>HTML</p>
+        <p>available: Wednesday, Friday</p>
+</section>
+<section id="booking">
+    <h2>Book an Appointment</h2>
+    <p>Fill in the details below to request a meeting.</p>
+
+
+<form>
+
+    <label for="studentName">Student Name:</label>
+    <input type="text" id="studentName" placeholder="Enter your name">
+
+    <br><br>
+
+    <label for="studentEmail">Email:</label>
+    <input type="email" id="studentEmail" placeholder="Enter your email">
+
+    <br><br>
+
+    <label for="professor">Select Professor:</label>
+    <select id="professor">
+        <option>Professor A</option>
+        <option>Professor B</option>
+        <option>Professor C</option>
+        <option>Professor D</option>
+        <option>Professor E</option>
+        <option>Professor F</option>
+    </select>
+
+    <br><br>
+
+    <label for="appointmentDate">Appointment Date:</label>
+    <input type="date" id="appointmentDate">
+
+    <br><br>
+
+    <label for="appointmentTime">Appointment Time:</label>
+    <input type="time" id="appointmentTime">
+
+    <br><br>
+
+    <label for="reason">Reason for Appointment:</label>
+    <br>
+    <textarea id="reason" rows="4" cols="30"
+        placeholder=""></textarea>
+
+    <br><br>
+
+    <button type="submit">Book Appointment</button>
+
+</form>
+
+</section>
+</section>
+</main>
+</body>
+</html>
